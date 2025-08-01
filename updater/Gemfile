@@ -1,0 +1,5 @@
+source "https://rubygems.org"
+
+gem "nokogiri", '~>1.18.9'
+gem "parser", '~>3.3'
+gem "unparser", '~>0.8'
