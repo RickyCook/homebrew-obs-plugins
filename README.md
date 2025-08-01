@@ -17,6 +17,7 @@ and update the formulas with new URLs and hashes.
 
 ## Limitations
 
+- This is all a really quick and dirty hack. You've been warned! (though I've probably installed the formulas in main, so they should work)
 - Only works on MacOS - I use pkg files, and not advanced enough to really know how to generically switch that for Linux, and certainly not Windows
 - Plugins must have a universal pkg (ie arm64 or x86_64 won't be found)
 - The words "macos" and "universal" must appear in the filename of the download
