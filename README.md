@@ -67,3 +67,15 @@ ln -s /opt/homebrew/Library/Taps/rickycook/homebrew-obs-plugins
 
 You don't even really need to symlink it - you can just open it in your IDE and
 work on the tap directory directly.
+
+I also add another origin so that I can push without effecting Homebrew
+
+```bash
+git remote add origin-dev git@github.com:RickyCook/homebrew-obs-plugins.git
+```
+
+And then to push
+
+```bash
+git push -u origin-dev
+```
