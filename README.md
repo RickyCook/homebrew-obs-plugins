@@ -4,6 +4,17 @@ A collection of OBS plugins that I use in a Homebrew tap.
 Also included is an updater script to read the formulas, download new version data,
 and update the formulas with new URLs and hashes.
 
+## Tricks
+
+- Reinstall all installed formulas:
+  ```bash
+  brew list --full-name | grep -i rickycook/obs-plugins | xargs brew reinstall
+  ```
+- Upgrade all installed plugins:
+  ```bash
+  brew list --full-name | grep -i rickycook/obs-plugins | xargs brew upgrade
+  ```
+
 ## Limitations
 
 - Only works on MacOS - I use pkg files, and not advanced enough to really know how to generically switch that for Linux, and certainly not Windows
@@ -54,17 +65,6 @@ Adding plugins is very easy:
   - License (it's probably GPLv2, but check on GitHub/etc)
   - plugin_path (it's a variable in the install function)
 - Run the updater (after installing dependencies - see above): `./update.rb --glob <your formula>.rb`
-
-## Tricks
-
-- Reinstall all installed formulas:
-  ```bash
-  brew list --full-name | grep -i rickycook/obs-plugins | xargs brew reinstall
-  ```
-- Upgrade all installed plugins:
-  ```bash
-  brew list --full-name | grep -i rickycook/obs-plugins | xargs brew upgrade
-  ```
 
 ## Development
 
