@@ -57,9 +57,13 @@ Adding plugins is very easy:
 
 ## Tricks
 
-- Reinstall all formulas:
+- Reinstall all installed formulas:
   ```bash
   brew list --full-name | grep -i rickycook/obs-plugins | xargs brew reinstall
+  ```
+- Upgrade all installed plugins:
+  ```bash
+  brew list --full-name | grep -i rickycook/obs-plugins | xargs brew upgrade
   ```
 
 ## Development
