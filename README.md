@@ -55,6 +55,13 @@ Adding plugins is very easy:
   - plugin_path (it's a variable in the install function)
 - Run the updater (after installing dependencies - see above): `./update.rb --glob <your formula>.rb`
 
+## Tricks
+
+- Reinstall all formulas:
+  ```bash
+  brew list --full-name | grep -i rickycook/obs-plugins | xargs brew reinstall
+  ```
+
 ## Development
 
 I simply symlink the tap into my dev directory and work on it there. Homebrew
