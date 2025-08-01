@@ -4,6 +4,7 @@ class AdvancedSceneSwitcher < Formula
   url("https://github.com/WarmUpTill/SceneSwitcher/releases/download/1.31.0/advanced-scene-switcher-1.31.0-macos-universal.pkg")
   sha256("a52cad3773c1bc5c3b80f3e756fd61ee40ec5c05eab83b0025d444e0f03a0c23")
   license("GPL2")
+  version("1.31.0")
 
   def install
     pkg_files = Dir.glob("*-universal.pkg")

@@ -4,6 +4,7 @@ class SourceRecord < Formula
   url("https://obsproject.com/forum/resources/source-record.1285/version/6239/download?file=113214")
   sha256("16108ee4647447918860718aa4a579d88e366d84c70f116179cb45562541eaa0")
   license("GPL2")
+  version("0.4.6")
 
   def install
     pkg_files = Dir.glob("*-universal.pkg")

@@ -4,6 +4,7 @@ class Shaderfilter < Formula
   url("https://github.com/exeldro/obs-shaderfilter/releases/download/2.5.1/obs-shaderfilter-2.5.1-macos-universal.pkg")
   sha256("9ccae575283a06c289f4516632669d058c26797877b98a1274aaca7dd208dca9")
   license("GPL2")
+  version("2.5.1")
 
   def install
     pkg_files = Dir.glob("*-universal.pkg")

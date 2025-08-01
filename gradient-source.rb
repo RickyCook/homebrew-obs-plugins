@@ -4,6 +4,7 @@ class GradientSource < Formula
   url("https://obsproject.com/forum/resources/gradient-source.1172/version/4964/download?file=95248")
   sha256("4f00af8fd6922f5c466cc5e013691d1feb00703b616a5d0c3d4451ce6ae91d78")
   license("GPL2")
+  version("0.3.2")
 
   def install
     pkg_files = Dir.glob("*-universal.pkg")

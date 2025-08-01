@@ -4,6 +4,7 @@ class AdvancedMasks < Formula
   url("https://obsproject.com/forum/resources/advanced-masks.1856/version/6385/download?file=114778")
   sha256("0cdadd2a66897cadc62263ee1165555c8d4bc88cfd6d9a1e55a6fbcea234591f")
   license("GPL2")
+  version("1.5.3")
 
   def install
     pkg_files = Dir.glob("*-universal.pkg")

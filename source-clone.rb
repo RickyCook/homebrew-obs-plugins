@@ -4,6 +4,7 @@ class SourceClone < Formula
   url("https://obsproject.com/forum/resources/source-clone.1632/version/5627/download?file=104022")
   sha256("738ff83481f491c9c52c9fd886bf3a1adec8e18a543b14da45daeab526daa5e8")
   license("GPL2")
+  version("0.1.5")
 
   def install
     pkg_files = Dir.glob("*-universal.pkg")

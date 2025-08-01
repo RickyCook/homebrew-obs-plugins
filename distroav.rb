@@ -4,6 +4,7 @@ class Distroav < Formula
   url("https://github.com/DistroAV/DistroAV/releases/download/6.1.1/distroav-6.1.1-macos-universal.pkg")
   sha256("119e88377a3920216ac2f9e29b174d45c43f855baed14c7b282e35378c0e06d3")
   license("GPL2")
+  version("6.1.1")
 
   def install
     brew = "#{HOMEBREW_PREFIX}/bin/brew"

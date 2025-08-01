@@ -4,6 +4,7 @@ class MediaPlaylistSource < Formula
   url("https://github.com/CodeYan01/media-playlist-source/releases/download/0.1.3/media-playlist-source-0.1.3-macos-universal.pkg")
   sha256("47d23c9f985bc49ef37ab1a8830f7de5ff6335122af240d3e8e04e4e479acf30")
   license("GPL2")
+  version("0.1.3")
 
   def install
     pkg_files = Dir.glob("*-universal.pkg")

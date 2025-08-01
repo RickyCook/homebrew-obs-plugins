@@ -4,6 +4,7 @@ class StrokeGlowShadow < Formula
   url("https://obsproject.com/forum/resources/stroke-glow-shadow.1800/version/6168/download?file=112272")
   sha256("e206944c6645bd289805ececb42190e036e32b9cf19136347cd5a692ca1d11de")
   license("GPL2")
+  version("1.5.2")
 
   def install
     pkg_files = Dir.glob("*-universal.pkg")

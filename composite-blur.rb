@@ -4,6 +4,7 @@ class CompositeBlur < Formula
   url("https://obsproject.com/forum/resources/composite-blur.1780/version/6384/download?file=114774")
   sha256("16d6ed9a84baf647fd7c91c18266405033b018a8e3dd82730249582619307b3a")
   license("GPL2")
+  version("1.5.2")
 
   def install
     pkg_files = Dir.glob("*-universal.pkg")

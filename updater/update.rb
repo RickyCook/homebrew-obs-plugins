@@ -253,9 +253,11 @@ class CaskFile
   def update_ast_and_write
     return unless macos_download_url
     return unless macos_download_sha256
+    return unless latest_version
 
     update_value(:url, macos_download_url)
     update_value(:sha256, macos_download_sha256)
+    update_value(:version, latest_version)
 
     new_content = Unparser.unparse(@ast)
     @logger.info("Writing updated content to #{@path}")
@@ -272,6 +274,10 @@ class CaskFile
 
   def homepage
     find_value(:homepage)
+  end
+
+  def version
+    find_value(:version)
   end
 
   def homepage_page
